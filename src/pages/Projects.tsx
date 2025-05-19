@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
       name: "Permissionless BlockAi",
       description: "The website which is made like the future of Shark Tank India that takes the palteform completely online.",
       tech: ["Next.js", "React.js", "Node.js", "Blockchain"],
-      image: "public/Project-photoes/Permissionless.png",
+      image: "/Project-photoes/Permissionless.png",
       links: {
         live: "https://www.linkedin.com/posts/nayan-sadariya_crowdfunding-blockchain-permissionless-activity-7281310372563742720-fsur?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAE4PXm4B2GBRuhdfd5s9jnfKl5_ZygLSpl4",
         github: "https://github.com/NayanSadariya/CrowdChain-The-future-of-Shark-Tank"
@@ -28,7 +28,7 @@ const Projects: React.FC = () => {
       name: "Soltracer",
       description: "A web-app that is built to manage the solar panel modern installation and maintenance with 3D objects.",
       tech: ["WebGL", "Three.js","React.js", "Node.js"],
-      image: "public/Project-photoes/Soltracer.png",
+      image: "/Project-photoes/Soltracer.png",
       links: {
         live: "https://monumental-semolina-0d3db5.netlify.app/",
         github: "https://github.com/NayanSadariya"
@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
       name: "Bean&Brew",
       description: "A coffee shop website that showcases the menu, ambiance, and unique offerings of the shop.",
       tech: ["HTML", "Typescript", "Tailwind","PHP"],
-      image: "public/Project-photoes/Bean&Brew.png",
+      image: "/Project-photoes/Bean&Brew.png",
       links: {
         live: "https://idyllic-duckanoo-4dc071.netlify.app/",
         github: "https://github.com/NayanSadariya/E-commerce"

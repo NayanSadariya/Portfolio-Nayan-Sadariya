@@ -13,13 +13,13 @@ const ProjectsCard: React.FC = () => {
     {
       name: "Permissionless BlockAi",
       description: "Online Shark Tank",
-      image: "public/Project-photoes/Permissionless.png",
+      image: "/Project-photoes/Permissionless.png",
       tech: ["Next.js", "React.js", "Node.js", "Blockchain"]
     },
     {
       name: "Soltracer",
       description: "Moving Solar panel",
-      image: "public/Project-photoes/Soltracer.png",
+      image: "/Project-photoes/Soltracer.png",
       tech: ["WebGL", "Three.js","React.js", "Node.js"]
     }
   ];
