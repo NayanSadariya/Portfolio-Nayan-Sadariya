@@ -71,12 +71,12 @@ const FAQ: React.FC = () => {
         <p className="text-gray-700 mb-6">
           Can't find the answer you're looking for? Feel free to reach out directly.
         </p>
-        <a 
-          href="/contact"
+        <button
+          onClick={() => window.location.href = '/contact'}
           className="inline-block bg-medium-green text-white px-6 py-3 rounded-lg font-medium hover:bg-opacity-90 transition-colors"
         >
           Contact Me
-        </a>
+        </button>
       </div>
     </div>
   );
