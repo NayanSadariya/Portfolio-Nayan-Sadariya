@@ -1,5 +1,6 @@
 import React from 'react';
 import { Code, ArrowUpRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const SkillsCard: React.FC = () => {
   const skills = [
@@ -17,16 +18,9 @@ const SkillsCard: React.FC = () => {
           <Code size={20} />
           <h3 className="text-xl font-medium">Skills</h3>
         </div>
-        <a 
-          href="/skills" 
-          target="_blank" 
-          rel="noopener noreferrer"
-        >
-          <ArrowUpRight 
-            size={24} 
-            className="cursor-pointer hover:scale-110 transition-transform" 
-          />
-        </a>
+        <Link to="/skills">
+          <ArrowUpRight size={24} className="cursor-pointer hover:scale-110 transition-transform" />
+        </Link>
       </div>
       <div className="space-y-3">
         {skills.map((skill, index) => (

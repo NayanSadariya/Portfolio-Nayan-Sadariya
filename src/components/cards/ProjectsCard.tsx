@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowUpRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const ProjectsCard: React.FC = () => {
   const projects = [
@@ -27,13 +28,9 @@ const ProjectsCard: React.FC = () => {
     <div className="bg-cream rounded-card p-5 sm:p-6">
       <div className="flex justify-between items-center mb-6">
         <h3 className="text-xl font-medium">Featured Projects</h3>
-        <a 
-          href="/projects" 
-          target="_blank" 
-          rel="noopener noreferrer"
-        >
+        <Link to="/projects">
           <ArrowUpRight size={24} className="cursor-pointer hover:scale-110 transition-transform" />
-        </a>
+        </Link>
       </div>
       
       <div className="space-y-4">
