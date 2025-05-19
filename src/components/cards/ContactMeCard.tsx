@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactMeCard: React.FC = () => {
   const handleClick = () => {
-    window.location.href = '/contact';
+    window.open('/contact', '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -20,4 +20,4 @@ const ContactMeCard: React.FC = () => {
   );
 };
 
-export default ContactMeCard
+export default ContactMeCard;

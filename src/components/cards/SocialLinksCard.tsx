@@ -13,7 +13,9 @@ const SocialLinksCard: React.FC = () => {
         {socialLinks.map((link, index) => (
           <a 
             key={index} 
-            href={link.url} 
+            href={link.url}
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-xs sm:text-sm uppercase hover:underline"
           >
             {link.name}

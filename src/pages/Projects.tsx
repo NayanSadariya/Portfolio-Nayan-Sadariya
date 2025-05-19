@@ -23,7 +23,6 @@ const Projects: React.FC = () => {
         github: "https://github.com/NayanSadariya/CrowdChain-The-future-of-Shark-Tank"
       }
     },
-    
     {
       name: "Soltracer",
       description: "A web-app that is built to manage the solar panel modern installation and maintenance with 3D objects.",
@@ -34,7 +33,6 @@ const Projects: React.FC = () => {
         github: "https://github.com/NayanSadariya"
       }
     },
-
     {
       name: "Bean&Brew",
       description: "A coffee shop website that showcases the menu, ambiance, and unique offerings of the shop.",
@@ -79,6 +77,8 @@ const Projects: React.FC = () => {
             <div className="flex gap-4">
               <a 
                 href={project.links.live}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2 text-medium-green hover:underline"
               >
                 <ExternalLink size={20} />
@@ -86,6 +86,8 @@ const Projects: React.FC = () => {
               </a>
               <a 
                 href={project.links.github}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2 text-medium-green hover:underline"
               >
                 <Github size={20} />
